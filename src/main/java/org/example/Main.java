@@ -8,7 +8,8 @@ public class Main {
     public static void main(String[] args) {
 
 
-        Complex complex = new Complex(5,5);
+        Complex complex = new Complex(5,5,4,4);
+
         System.out.println(  complex.str());
 
         System.out.println(complex.add());
@@ -22,5 +23,9 @@ public class Main {
         System.out.println( complex.abs());
 
         System.out.println(complex.equal());
-        }
+
+
+
+    }
+
     }
